@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --vermelho: #e50914;
+    --roxo: #250335;
+    
+}
+
+
+body{
+    background-color: var(--roxo);
+    display: flex;
+    flex-direction: column;
+   
+    }
+
+img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    transition: ease;
+    border: 2px solid rgb(186, 231, 229);
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+}
+
+
+.containerLogo{
+    color: var(--vermelho);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    width: 100%;
+    
+}
+
+.container h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white
+}
+
+.containerUsuario{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.imagemUsuario{
+   text-align: left;
+    width: 200px;
+    height: auto ;
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+
+
+.gerenciar{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gerenciar button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.gerenciar button:hover{
+    transition: 3s ease-all;
+    background-color: white;
+    color: rgb(20, 17, 17);
+    font-weight: bold;
+}
